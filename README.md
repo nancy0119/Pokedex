@@ -1,5 +1,28 @@
 # POKEDEX 
 A React application that allows users to retrieve, search, and dissect different Pokemon by their statistics using Pokemon API
+<p align="center">
+<span>
+<img src='src/assests/img/readme/Snnipet.png'>
+</span>
+</p>
+
+
+## Technology Stack
+
+<p align="center">
+<span>
+<img src='src/assests/img/readme/Bootstrap.png' width="80" height="80">
+<img src='src/assests/img/readme/react.png' width="80" height="80">
+<img src='src/assests/img/readme/Nodejs.png' width="80" height="80">
+</span>
+</p>
+
+## Wireframe
+<p align="center">
+<span>
+<img src='src/assests/img/readme/Wireframe.png' height="500">
+</span>
+</p>
 
 ## Installation
 
