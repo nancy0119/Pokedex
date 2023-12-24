@@ -1,0 +1,7 @@
+.modal-header-dark {
+    background-color: #2B3035; /* Dark color for the modal header background */
+    color: #ffffff; /* Light color for the text */
+  }
+  .modal-header-dark button.close{
+    color: #ffffff !important;
+  }
