@@ -4,7 +4,7 @@ import logo from '../../assests/img/logo.webp';
 
 function NavBar() {
   return (
-    <Navbar bg = "dark" data-bs-theme="dark" expand="lg" className="bg-body-tertiary">
+    <Navbar fixed="top" bg = "dark" data-bs-theme="dark" expand="lg" className="bg-body-tertiary navbar-fixed-top ">
       <Container>
         <Navbar.Brand href="#home"> 
         <img

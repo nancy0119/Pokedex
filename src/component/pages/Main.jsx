@@ -79,16 +79,16 @@ function Main() {
     <div className="App">
     <Stack gap={3}>
       <NavBar />
-      <Stack direction='horizontal' gap={5} className='px-5' style={{marginLeft:"5%"}}>
+      <Stack direction='horizontal' gap={3} className='pt-5 mt-4 mx-auto px-3'>
         <SearchBar className='p-2 ms-auto' style={{ marginLeft: 'auto' }}/>
         <Filter className='p-2 me-auto'  typePokeFun={typePokeFun} style={{ marginRight: 'auto' }} />
       </Stack>
-      <Container>
-        <Row className="center-container">
+      <Container >
+        <Row className="center-container align-items-center">
             <CardTile pokemon={pokeData} loading={loading}/>
         </Row>
       </Container>
-      <Stack  direction='horizontal' className='px-5'  style={{marginLeft:"5%"}}>
+      <Stack  fixed="bottom" direction='horizontal' className='mx-auto mb-5' gap={3}>
         {
             prevUrl && <Button onClick={()=>{
             setPokeData([])
@@ -99,7 +99,7 @@ function Main() {
             nextUrl && <Button onClick={()=>{
             setPokeData([])
             setUrl(nextUrl)
-        }}variant="danger" className='p-2 ms-auto' style={{width:"fit-content"}}>Next</Button>
+        }}variant="danger" className='p-2' style={{width:"fit-content"}}>Next</Button>
         }
       </Stack>
     </Stack>
